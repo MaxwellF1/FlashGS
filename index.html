@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,20 +52,41 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Guofeng Feng</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Siyan Chen</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Rong Fu</a>,</span>
+                    <span class="author-block">
+                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zimu Liao</a>,</span>
+                      <span class="author-block">
+                        <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yi Wang</a>,</span>
+                        <span class="author-block">
+                          <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Tao Liu</a>,</span>
+                          <span class="author-block">
+                            <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Boni Hu</a>,</span>
+                            <span class="author-block">
+                              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Linning Xu</a>,</span>
+                              <span class="author-block">
+                                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zhilin Pei</a>,</span>
+                                <span class="author-block">
+                                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hengjie Li</a>,</span>
+                                  <span class="author-block">
+                                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xiuhong Li</a>,</span>
+                                    <span class="author-block">
+                                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xingcheng Zhang</a>,</span>
+                                      <span class="author-block">
+                                        <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Bo Dai</a>,</span>
+                                        <!-- <span class="author-block">
+                                          <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zimu Liao</a>,</span> -->
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">Shanghai AI Laboratory<br>Preprint</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -73,7 +94,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2408.07967" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -95,7 +116,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/InternLandMark/FlashGS" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -106,7 +127,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2408.07967" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -127,17 +148,14 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static\images\FlashGS_Overvie@4x.png" alt="Teaser Figure" height="100%">
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        FlashGS Design with algorithm and low-level optimizations.
       </h2>
     </div>
   </div>
 </section>
+
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +166,23 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            We introduces FlashGS, an open-source CUDA Python library 
+            designed to facilitate the efficient differentiable rasterization of 3D Gaussian Splatting through algorithmic and
+            kernel-level optimizations. FlashGS is developed based on
+            the observations from a comprehensive analysis of rendering
+            process to enhance computational efficiency and bring the
+            technique to wide adoption. The paper includes a suite of optimization strategies, encompassing redundancy elimination,
+            efficient pipelining, refined control and scheduling mechanisms, and memory access optimizations, all of which are
+            meticulously integrated to amplify the performance of the
+            rasterization process. An extensive evaluation of FlashGS’
+            performance has been conducted across a diverse spectrum
+            of synthetic and real-world large-scale scenes, encompassing a variety of image resolutions. The empirical findings
+            demonstrate that FlashGS consistently achieves an average
+            4x acceleration over mobile consumer GPUs, coupled with
+            reduced memory consumption. These results underscore the
+            superior performance and resource optimization capabilities
+            of FlashGS, positioning it as a formidable tool in the domain
+            of 3D rendering.
           </p>
         </div>
       </div>
@@ -158,34 +192,38 @@
 <!-- End paper abstract -->
 
 
+
+
+
 <!-- Image carousel -->
+<!-- 
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
-        <!-- Your image here -->
+
         <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
+
         <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
-        <!-- Your image here -->
+
         <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
-      <!-- Your image here -->
+
       <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
@@ -194,56 +232,57 @@
   </div>
 </div>
 </div>
-</section>
+</section> 
+-->
 <!-- End image carousel -->
 
 
 
 
 <!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
+     
       <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
           <div class="publication-video">
-            <!-- Youtube embed code here -->
+         
             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End youtube video -->
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+            
             <source src="static/videos/carousel1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
+            
             <source src="static/videos/carousel2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
+           
             <source src="static/videos/carousel3.mp4"
             type="video/mp4">
           </video>
@@ -251,7 +290,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -260,7 +299,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -270,15 +309,43 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
+
+<!-- results -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+     
+      <h2 class="title is-3">Evaluation</h2>
+      <div class="columns is-centered has-text-centered">
+            <img src="static\images\totalspeedup.jpg">
+      </div>
+      <h2 class="subtitle has-text-justified">
+        FlashGS average/slowest frame rendering time (ms) and corresponding FPS with speedup relative to 3DGS across
+different datasets and resolutions on 3090 GPU. FlashGS can always achieve > 100FPS rendering on
+RTX 3090, even for high-resolution and large-scale datasets.
+In the slowest frame in Rubble of all datasets, we achieve
+107.3 FPS. This demonstrates that FlashGS can perform realtime rendering even in extremely large and high-resolution
+cases. Flash GS achieves up to 30.53× speedup with an average of 12.18× on the Matrixcity dataset at 4k resolution. We
+achieve 7.2× average speedup on all 11 scenes, while achieving 8.6× speedup on the 7 large-scale or high-resolution tests
+      </h2>
+    </div>
+  </div>
+</section>
+<!--End results -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{feng2024flashgs,
+        title={Flashgs: Efficient 3d gaussian splatting for large-scale and high-resolution rendering},
+        author={Feng, Guofeng and Chen, Siyan and Fu, Rong and Liao, Zimu and Wang, Yi and Liu, Tao and Pei, Zhilin and Li, Hengjie and Zhang, Xingcheng and Dai, Bo},
+        journal={arXiv preprint arXiv:2408.07967},
+        year={2024}
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
